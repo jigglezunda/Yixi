@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>rawyixidatabase.moe | Asset Dump</title>
+  <style>
+    body {
+      background: #f9f9f9;
+      font-family: Consolas, monospace;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    .hidden {
+      display: none;
+    }
+    .fake-stuff {
+      white-space: pre-wrap;
+      color: #aaa;
+      font-size: 12px;
+      padding: 10px;
+      max-width: 100%;
+    }
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      font-size: 3em;
+      font-family: Arial, sans-serif;
+      background: white;
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+  <div class="center" id="realMessage"></div>
+
+  <div class="fake-stuff hidden">
+    https://rawyixidatabase.moe/assets/ai_09012025dump.json  
+    https://rawyixidatabase.moe/text/leak/us-east-cluster.txt  
+    https://rawyixidatabase.moe/images/ai/log-2025-08-01-1.png  
+    https://rawyixidatabase.moe/images/ai/log-2025-08-01-2.png  
+
+    {
+      "version": "1.0.9",
+      "dump": [
+        { "path": "/db/core/strings/epoch-id-0302.txt", "size": 3872 },
+        { "path": "/db/core/hidden/seedmap-v3/2025.bin", "encrypted": true },
+        { "path": "/img/diff_log/missing_heads.png", "hash": "f2a92d1e..." }
+      ]
+    }
+
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA" alt="img" />
+    <img src="assets/defrag/traceai_logdump9.png" alt="dump" />
+    <code>
+      &lt;div class="node"&gt;  
+        &lt;script&gt;trace.back(0x13FFAE)&lt;/script&gt;  
+      &lt;/div&gt;
+    </code>
+  </div>
+
+  <script>
+    // Base64 decode and show real message
+    const decoded = atob("Z290Y2hhIQ==");
+    document.getElementById("realMessage").innerText = decoded;
+  </script>
+</body>
+</html>
